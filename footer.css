@@ -1,0 +1,45 @@
+.ubicacion{
+    width: 100%;
+    height: 700px;
+    background-color: #1F618D ;
+    position: relative;
+  
+
+}
+.mapa{
+    width: 70%;
+    height: 300px;
+    border-radius: 40px;
+    margin-left: 15%;
+    margin-top: 110px;
+}
+.ajuste2{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    
+   
+}
+.piede{
+    margin-top: 30px;
+   display: flex;
+    width: 100%;
+    height: 60px;
+    color: white;
+    justify-content: center;
+}
+.piede h2{
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 6px;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #0B3149;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}

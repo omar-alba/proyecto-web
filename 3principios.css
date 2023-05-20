@@ -1,0 +1,436 @@
+.principios{
+    width: 100%;
+height: auto;
+padding-top: 15px;
+
+/* background-color: rgb(15, 15, 15); */
+position: relative;
+
+}
+
+.colombia{
+    color: rgb(88, 87, 87);
+    font-size: 13px;
+    padding-bottom: 30px;
+}
+.principal{
+    width:50%;
+ height:auto;
+ 
+
+   }
+.principi{
+    /* color: white; */
+    color: black;
+   
+}
+
+.principa1{
+    margin-top: 180px;
+    margin-left: 120px;
+    width: 90%;
+    height: auto;
+  
+}
+.principa2{
+    margin-left: 120px;
+    width: 50%;
+    height: auto;
+    padding-top: 10px;
+    
+}
+.cabeza{
+   
+    margin-bottom: 10px;
+    display: flex;
+    /* color: white; */
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.parrafo{
+ margin-top: 10px;
+}
+.somos{
+    width: 40%;
+    height: auto;
+    margin-left: 380px;
+    margin-top: 40px; 
+    text-align: center;
+}
+
+.linea{
+    margin-left: 190px;
+    width: 20%;
+}
+.hdos{
+    margin-top: 15px;
+    /* color: white; */
+    color: rgb(36, 32, 32);
+}
+.celebro{
+   
+  width: 30%;
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    z-index: -1;
+  
+}
+
+
+.padre-digital{
+    width: 100%;
+   max-height: 550px;
+    display: flex;
+ background-color: rgb(245, 236, 225);
+
+}
+.reaccion{
+    margin-top: 70px;
+    width: 65%;
+    max-height: 450px;
+ 
+
+}
+.reaccionhumana{
+   
+    margin-top: 70px;
+    width: 35%;
+    max-height: 350px;
+}
+
+h1 .spanuno{
+    margin-top: 15px;
+    color: rgb(5, 5, 146);
+    font-size: 30px;
+}
+h1 .spandos{
+    margin-bottom: 20px;
+    color: rgb(12, 74, 245);
+}
+.padre-online{
+  width: 100%;
+  display: flex;
+  
+}
+.online-uno{
+  width: 50%;
+}
+.online-dos{
+    width: 50%;
+    background-color: blue;
+    
+}
+.online-dos h1 {
+    color: white;
+    margin-left:   60px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.online-dos h2 {
+    margin-top: 20px;
+    color: beige;
+    margin-left:   60px;
+    font-size: 15px;
+}
+ .huno{
+font-size: 27px;
+font-family: 'Quicksand', sans-serif;
+color: beige;
+margin-left:   60px;
+
+
+}
+
+.flech{
+    width: 20px;
+    margin-left:   60px;
+    color: black;
+}
+.padre-online,.online-dos, .flech{
+    font-size: 18px;
+    color: wheat;
+    
+}
+ .titul{
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.seccion-efect{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+.efectivo{
+    width: 50%;
+    height: auto;
+  
+}
+
+.unosp{
+    
+    color: rgb(5, 5, 146);
+    font-size: 26px;
+    margin-left: 110px;
+    display: block;
+}
+.dossp{
+    font-size: 26px;
+    color: rgb(12, 74, 245);
+    margin-left: 110px;
+    display: block;
+}
+.unop{
+    margin-top: 15px;
+    margin-left: 110px;
+}
+.dosp{
+    margin-left: 110px;
+}
+@media (min-width: 768px) and (max-width: 991px){
+ .principios{
+  height:auto;
+  position: relative;
+ 
+ }
+ .principal{
+  width:50%;
+  height: auto;
+  margin-top:0px;
+  margin-left:60px;
+ }
+ .principa1{
+    width: 100%;
+    height: auto;
+ }
+ .principa1, h2{
+  font-size:19px;
+ }
+ .principa2{
+  width:100%;
+ height:auto;
+  margin-left:60px;
+
+  
+ }
+ .celebro{
+   position: absolute;
+
+   width: 50%;
+    left: 400px;
+    top: 10px;
+    z-index: -1;
+ }
+ .celebro img{
+   margin-left:40px;
+    width:90%;
+    height: auto;
+ }
+ .somos{
+ 
+  width:50%;
+  text-align:center;
+     height: auto;
+    margin-left: 250px;
+    margin-top: 40px; 
+ }
+ .linea{
+    margin-left: 170px;
+    width: 20%;
+}
+ .reaccion{
+ width: 50%;
+ 
+ }
+ .reaccion img{
+   width:90%;
+ }
+ .reaccionhumana{
+  width:40%;
+  
+ }
+ h1 .spanuno{
+    margin-top: 15px;
+    color: rgb(5, 5, 146);
+    font-size: 19px;
+}
+h1 .spandos{
+    margin-bottom: 20px;
+    color: rgb(12, 74, 245);
+}
+ .online-dos h2{
+  font-size:14px;
+  color:white;
+  margin-left: 60px;
+  
+ }
+  .online-dos h1{
+  font-size:22px;
+  color:white;
+  margin-left: 60px;
+  
+ }
+  .online-dos h3{
+  font-size:15px;
+  color:white;
+  margin-left: 60px;
+  
+ }
+ .efectivo{
+  width:50%;
+ 
+ }
+ .efectivo-img{
+ width:50%;
+  height:auto;
+} 
+ .efectivo-img img{
+  width:100%;
+ }
+ .unosp{
+    
+    color: rgb(5, 5, 146);
+    font-size: 22px;
+    margin-left: 90px;
+    display: block;
+}
+.dossp{
+    font-size: 26px;
+    color: rgb(12, 74, 245);
+    margin-left: 90px;
+    display: block;
+}
+.unop{
+    margin-top: 15px;
+    margin-left: 90px;
+}
+.dosp{
+    margin-left: 90px;
+}
+}
+@media (min-width: 576px) and (max-width: 767px){
+  .principios{
+   width:100%;
+  height:auto;
+  position: relative;
+ 
+ }
+ .principal{
+  width:50%;
+  height: auto;
+  margin-top:8px;
+  margin-left:10px;
+ }
+
+ .principa1, h2{
+  font-size:18px;
+ }
+ .principa2{
+  width:100%;
+ height:auto;
+  margin-left:60px;
+
+  
+ }
+ .celebro{
+   position: absolute;
+
+   width: 50%;
+    left: 350px;
+    top: 200px;
+    z-index: -1;
+ }
+ .celebro img{
+   margin-left:40px;
+    width:90%;
+    height: auto;
+ }
+ .somos{
+ 
+  width:50%;
+  text-align:center;
+     height: auto;
+    margin-left: 250px;
+    margin-top: 40px; 
+ }
+ .linea{
+    margin-left: 140px;
+    width: 20%;
+}
+ .reaccion{
+ width: 50%;
+  margin-top:0px
+ 
+ }
+ .reaccion img{
+   width:90%;
+ }
+ .reaccionhumana{
+  margin-top:10px;
+  width:50%;
+  
+ }
+
+.reaccionhumana h1 span{
+   font-size:25px;
+ 
+ }
+
+ .p-lorem{
+  margin-bottom:10px;
+ }
+ .online-dos h2{
+  font-size:14px;
+  color:white;
+  margin-left: 60px;
+  
+ }
+  .online-dos h1{
+  font-size:22px;
+  color:white;
+  margin-left: 60px;
+  
+ }
+  .online-dos h3{
+  font-size:15px;
+  color:white;
+  margin-left: 60px;
+  
+ }
+ .efectivo{
+  width:50%;
+ 
+ }
+ .efectivo-img{
+ width:50%;
+  height:auto;
+} 
+ .efectivo-img img{
+  width:100%;
+ }
+.efectivos h1 {
+  font-size:25px;
+ }
+ .unosp{
+    
+    color: rgb(5, 5, 146);
+    font-size: 22px;
+    margin-left: 90px;
+    display: block;
+}
+.dossp{
+    font-size: 26px;
+    color: rgb(12, 74, 245);
+    margin-left: 90px;
+    display: block;
+}
+.unop{
+    margin-top: 15px;
+    margin-left: 90px;
+}
+.dosp{
+    margin-left: 90px;
+}
+}

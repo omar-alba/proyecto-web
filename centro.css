@@ -1,0 +1,286 @@
+
+
+.conte-centro{
+    width: 100%;
+    display: flex;
+    padding-top: 30PX;
+    padding-bottom: 20px;
+    
+   
+}
+ .pexel{
+    width: 50%;
+    
+
+    
+}
+ .pexe{
+    width:100%;
+  height:auto;
+    border-radius: 40px;
+
+}
+.diseños{
+    margin-top: 20PX;
+    width: 50%;
+    height: auto;
+
+
+
+}
+.diseñp{
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 80px;
+
+}
+.diseñop{
+    display: block;
+    margin-left: 100px;
+    margin-right: 95px;
+}
+.diseñouno{
+    color: rgb(5, 5, 146);
+    font-size: 26px;
+    margin-left: 100px;
+    display: block;
+    margin-right: 90px;
+}
+.diseñodos{
+    font-size: 26px;
+    color: rgb(12, 74, 245);
+    margin-left: 100px;
+    display: block;
+    margin-right: 90px;
+}
+.dosXuno{
+    width: 100%;
+    background: linear-gradient(to right, rgba(153,62,214,1) 0%, rgba(17,100,250,1) 100%);
+    display: flex;
+}
+.compra{
+    width: 50%;
+    height: auto;
+    text-align: center;
+   position: relative;
+   
+
+}
+.cont-compra{
+    width: 60%;
+    height:auto;
+    align-items: center;
+    margin-left: 170px;
+    margin-top: 50px;
+ 
+
+}
+.medalla{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+    /* margin-top: 50px; */
+
+}
+.mitad{
+    display: block;
+    color: white;
+}
+.adquirir{
+  width: 50%;
+  max-height: 250px;
+  text-align: center;
+  
+}
+.number{
+    font-size: 90px;
+    color: white;
+    margin-top: 40px;
+}
+.ofert{
+
+    font-size: 15px;
+    width: 48%;
+    height: auto;
+    margin-left: 160px;
+    border-radius: 15px;
+    border-style: solid;
+   color: white;
+
+}
+.ofert, h3{
+    margin-top: 8px;
+    color: white;
+}
+.hr2{
+    margin-top: 35px;
+    border: none;
+    width: 2px;
+    border-right: 2px solid white;
+    height: 200px;
+}
+.cont-principal{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 20px;
+
+
+}
+.title{
+    width: 70%;
+    text-align: center;
+    margin-left: 190px;
+    padding-top: 30px;
+   
+    
+}
+
+ .title h3{
+    font-size: 18px;
+    color: gray;
+    
+
+}
+ .title h2{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #444342;
+}
+.cont-hijo{
+    width: 90%;
+
+    margin-left: 5%;
+    margin-top: 40px;
+    display: flex;
+}
+.logos-comp{
+    width: 100px;
+    margin-top: 15px;
+}
+.compro{
+    margin-left: 4%;
+    width: 30%;
+    text-align: center;
+   
+
+}
+.compro h2{
+    margin-top: 20px;
+}
+.compro p {
+      margin-left: 48px;
+      margin-right: 48px;
+      margin-top: 20px;
+      color: gray;
+}
+.agente{
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 30%;
+    text-align: center;
+  
+}
+.agente h2{
+    margin-top: 20px;
+}
+.agente p {
+      margin-left: 48px;
+      margin-right: 48px;
+      margin-top: 20px;
+      color: gray;
+}
+.carta{
+    
+    width: 30%;
+    text-align: center;
+
+}
+.carta h2{
+    margin-top: 20px;
+}
+.carta p {
+      margin-left: 48px;
+      margin-right: 48px;
+      margin-top: 20px;
+      color: gray;
+}
+.parrafogr{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+.soli{
+    width: 20%;
+    height: 55px;
+    border-radius: 8px;
+    background-color: orangered;
+    color: white;
+    margin-top: 16px;
+}
+@media (min-width: 576px) and (max-width: 767px){
+ .pexel{
+     width:50%;
+      
+ }
+    .pexe{
+       width: 95%;
+    }
+    .diseños{
+        margin-top:0px;
+    }
+    .diseños h1 span{
+        font-size:20px;
+        margin-left:15px;
+        margin-right:10px;
+        
+    
+    }
+    .diseñp{
+        font-size:15px;
+         margin-left:15px;
+        margin-right:10px;
+        margin-top:40px;
+        margin-bottom:20px;
+        
+    }
+    .diseñop{
+        margin-left:15px;
+        margin-right:10px; 
+        margin-top:30px;
+    }
+
+    .cont-compra{
+        margin-left:50px;
+    }
+    .ofert{
+        margin-left:80px;
+    }
+    .title{
+      
+        width:100%;
+        margin-left:0px;
+    }
+    .title h2{
+        font-size:20px;
+    }
+
+  
+    .compro p{
+        margin-left:0px;
+        margin-right:0px;
+    }
+    .agente p{
+        
+          margin-left:0px;
+        margin-right:0px;
+    }
+    .carta p{
+          margin-left:0px;
+        margin-right:0px;
+    }
+   .parrafogr{
+        font-size:30px;
+    }
+}

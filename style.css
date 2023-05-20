@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+
+}
+h1, h2, h3, h4, h5, h6, p, span, a{
+ font-family: 'Quicksand', sans-serif;
+}
+nav {
+    background: linear-gradient(to right, rgba(153,62,214,1) 0%, rgba(17,100,250,1) 100%);
+    width: 100%;
+    height: auto;
+    
+}
+ ul {
+       width: 100%;
+       height: auto;
+       display: flex;
+       list-style: none;
+       justify-content: center;
+       color: white;
+}
+li{
+    padding-right: 10PX;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+ .oferta{
+    background-color: rgba(17,100,250,1) ;
+    color: white;
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 8px;
+     margin-bottom: 3px;
+}
+.logito{
+   margin-top: 8px;
+   margin-right: 6px;
+    width: 25px;
+    height: 28px;
+}
+.numero{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    background-color: rgb(24, 21, 21);
+    color: white;
+    border-radius: 3px;
+}
+.seccion{
+background-image: url(./imagenes/beta.png);
+width: 100%;
+max-height: 770px;
+padding-top: 15px;
+}
+.informacion{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+
+ .verprecio{
+    background-color: rgba(17,100,250,1) ;
+    color: white;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+     margin-top: 5px
+
+}
+.bandera{
+    width: 9%;
+    height: auto;
+}
+.telefono{
+    width: 9%;
+    height: auto;
+}
+.logo{
+ width: 50%;
+ height: auto;
+ 
+}
+.neuro{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.contacto{
+    width: 35%;
+    height: auto;
+    text-align: center;
+}
+.contacto h3{
+    color: cornsilk;
+    font-size:19px;
+}
+.precio{
+    width: 25%;
+    min-height: 40px;
+    
+}
+.verprecio{
+    width: 90%;
+    min-height: 40px;
+    border-radius: 10px;
+    caret-color: white;
+}
+.telefono{
+    margin-left: 10px;
+}
+.bandera{
+    margin-top: 5px;
+    margin-left: 9px;
+}
+.comentario{
+    width: 60%;
+    margin-top: 200px;
+    margin-left: 100px;
+    
+}
+.texto1{
+    color: rgb(46, 44, 44);
+    font-family: 'Quicksand', sans-serif;
+}
+.texto2{
+    font-size: 40px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: 'Quicksand', sans-serif;
+}
+.solicitar{
+    background-color: orangered;
+    width: 40%;
+    min-height: 50px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+}
+.decisiones{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+ 
+}
+.decision1{
+    width: 50%;
+  
+    box-sizing: border-box;
+}
+.imagen-video{
+    width: 100%;
+   
+}
+.decision2{
+    box-sizing: border-box;
+    width: 50%;
+   
+    background-color: rgb(219, 219, 218);
+}
+.deci{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.exit{
+    color: rgb(88, 87, 87);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+.cont{
+    width: 70%;
+    height: 120px;
+    margin-top: 14px;
+    margin-left: 70px;
+}
+.video{
+    display: flex;
+   
+    
+}
+.resvdeo{
+    margin-right: 10px;
+}
+a{
+  
+    text-decoration: none;
+}
+.conjuntodeinfo{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: auto;
+    
+    background-color: white;
+    padding-top: 40px;
+  
+}
+.imagen2{
+    
+    border-right-style: solid ;
+    border-left-style:solid ;
+    border-color: rgb(20, 161, 161);
+    width: 100%;
+  
+}
+.imagen1{
+    
+  
+     width: 100%;
+}
+.imagen3{
+    
+ 
+     width: 100%;
+}
+.caja1{
+    text-align: center;
+    width: 20%;
+    margin-top: 80px;
+
+}
+.caja2{
+    text-align: center;
+    width: 20%;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right:5%
+}
+.caja3{
+    text-align: center;
+    width: 20%;
+    margin-top: 80px;
+}
+
+.consulta img{
+ margin-top: 40px;
+width: 100%;
+
+}
+.estrella{
+    width: 20%;
+    margin-top: 15px;
+    
+}
+.historiacompleta{
+    width: 100%;
+   
+    text-align: center;
+    
+}
+.historia1{
+    margin-left: 210px;
+    width: 70%;
+   min-height: 190px;
+    border-radius: 30px;
+    border: 1px solid blue;  
+   
+    text-align: center;
+}
+.parrafo1{
+    color: rgb(88, 87, 87);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+@media (min-width:768px) and ( max-width: 991px){
+   
+    .contacto{
+        width:50%;
+    }
+    .seccion .contacto h3{
+        color: black;
+        font-size:20px;
+        
+       
+    }
+    .logo{
+       
+        width:30%;
+    }
+    
+    .precio .verprecio{
+        margin-left:9px;
+    }
+   .comentario .texto2{
+       font-size:30px;
+       
+   }
+    .comentario{
+        margin-left:40px;
+    }
+    .decision2 .deci{
+        font-size:18px;
+        margin-top:5px;
+        margin-bottom:0px;
+    }
+   
+    .historia1{
+        margin-left:130px
+    }
+ 
+}
+@media (min-width:576px) and ( max-width: 767px){
+    nav{
+        display:block;
+    }
+ .oferta{
+    background-color: rgba(17,100,250,1) ;
+    color: white;
+    width: 27%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 8px;
+     margin-bottom: 5px;
+     margin-right:8px;
+}
+    
+    .neuro{
+    margin-left: 20px;
+    margin-top: 18px;
+        width:80%;
+}
+   
+       
+    .contacto{
+        width:50%;
+    }
+    .seccion .contacto h3{
+        color: black;
+        font-size:20px;
+        
+       
+    }
+    .logo{
+       
+        width:30%;
+    }
+    
+    .precio .verprecio{
+        margin-left:9px;
+    }
+   .comentario .texto2{
+       font-size:30px;
+       
+   }
+    .comentario{
+        margin-left:40px;
+    }
+    
+    .decision2 .deci{
+        font-size:15px;
+        margin-top:5px;
+        margin-bottom:0px;
+    }
+   
+    .historia1{
+        margin-left:110px
+    }
+}
